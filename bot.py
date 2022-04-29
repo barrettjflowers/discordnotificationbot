@@ -28,11 +28,11 @@ def main():
             
             
             #SMS
-            phone_number = "7652835939"
+            phone_number = "PHONE NUMBER"
             message = user_message
-            provider = "Verizon"
+            provider = "CARRIER"
 
-            sender_credentials = ("mydiscordnotificationbot@gmail.com", "ccvmpwbhgmbwgzzg")
+            sender_credentials = ("EMAIL, "TOKEN/PASSWORD")
 
             send_sms_via_email(
             phone_number, message, provider, sender_credentials, subject=""
@@ -45,11 +45,11 @@ def main():
             file_path = "image.png"
             mime_maintype = "image"
             mime_subtype = "png"
-            phone_number = "7652835939"
+            phone_number = "PHONE NUMBER"
             message = user_message
-            provider = "Verizon"
+            provider = "CARRIER"
 
-            sender_credentials = ("mydiscordnotificationbot@gmail.com", "ccvmpwbhgmbwgzzg")
+            sender_credentials = ("EMAIL", "TOKEN/PASSWORD")
 
             send_mms_via_email(
                 phone_number,
